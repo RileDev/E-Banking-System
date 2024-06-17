@@ -1,0 +1,2 @@
+
+sent:12-06-2024 16:33,senderAccountNumber:'8652-4105-3027-8997',recipientAccountNumber:'1957-8048-9023-5092',balance:1000.0EUR,purpose:'Mobilni telefon'
