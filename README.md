@@ -23,6 +23,7 @@ Kada korisnik pokrene aplikaciju, u konzoli će biti ispisane 2 opcije koju kori
 ![2](https://github.com/RileDev/E-Banking-System/assets/71150306/40cfdadc-d60b-46fc-9f0a-18c2ccefbd29)
 
 Prva opcija je za kreiranje korisnika. Ukoliko korisnik u konzoli napiše broj 1, korisnik tada ulazi u meni za kreiranje naloga.
+
 ![3](https://github.com/RileDev/E-Banking-System/assets/71150306/285e1181-8467-46d4-b713-7968ec15bfaa)
 
 Aplikacija će postaviti korisniku pitanja u vidu imena, prezimena, pol, e-mail adresa, četvorocifreni pin kod i jmbg osobe. Ukoliko korisnik pravilno unese sve podatke, račun će biti uspešno otvoren.
