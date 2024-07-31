@@ -2,7 +2,56 @@
 Explanation: This application was made for the final project for the subject "The Introduction to Object-oriented Programming in Java 1" in my faculty of information technologies.
 <h1>English documentation</h1>
 
-**will be written here soon**
+<h2>1. Theme Suggestion</h2>
+E-banking application includes user authentication, checking the bank account, money transfer, and view of user transactions. Also, user can change their PIN code and view their account.
+<h2>2. Description of functionalities</h2>
+This application contains user registration and user login. The user through registration can create their bank account, where it is necessary to include their first name, last name, gender, PIN for login, e-mail address, and user's ID number (JMBG). The application will automatically give their bank account number, which is formatted like XXXX-XXXX-XXXX-XXXX, where X is represented as a random number between 0-9. When the user creates their bank account, they can log in to their bank account where the application automatically redirects to the main menu of the application. The menu has 5 different options, selecting numbers from 1 to 5 (0 is for exiting the app) and choosing the action the user wants to do.
+<h2>3. Application structure</h2>
+
+![Picture](https://github.com/RileDev/E-Banking-System/assets/71150306/f7718cad-497b-42cf-b568-f6fa887ccfd6)
+
+This application was made by using multiple classes. It follows the object-oriented concept of programming. The "Main" class is the starting class of this application. Other classes are classified with Java packets that describe what they do. It has 3 main packets that are divided into classes, exceptions, and interfaces. The "classes" package is divided into these sub-packets: auth, dataManagement, ui, and user. The class in the "auth" package contains all the methods for user authentication. In the "dataManagement" package, there are classes for file management and data validation. In the "ui" package, there is a class for the UI part of the application, while in the "user" package, it contains "model" classes for data presentation. The "exceptions" package contains classes that inherit the class "Exception", and their usage is for throwing exceptions. Interfaces are placed in the package called "interfaces". Testing classes are placed outside of the "src" directory because there are classes for testing methods. This directory has the name "Test".
+
+<h2>4. User manual</h2>
+<h5>User Registration</h5>
+When the user starts the application, on the console will be displayed 2 options.
+
+![2](https://github.com/RileDev/E-Banking-System/assets/71150306/40cfdadc-d60b-46fc-9f0a-18c2ccefbd29)
+
+The first option is to create a new account. If the user types 1 on the console, the user will be redirected to the menu for creating a new account.
+
+![3](https://github.com/RileDev/E-Banking-System/assets/71150306/285e1181-8467-46d4-b713-7968ec15bfaa)
+
+The application will ask questions to the user such as first name, last name, gender, e-mail address, 4-digit PIN, and user's ID number (JMBG). If the user correctly types all data, the account will be successfully opened.
+
+<h5>User login</h5>
+To access to user's account, it was necessary to type number 2 on the console. The prompt for user registration/login will be automatically displayed on the screen.
+
+![4](https://github.com/RileDev/E-Banking-System/assets/71150306/468beef8-eec8-4bc5-8759-bc4622378782)
+
+If the user types number 2, the application will ask them to insert a valid mail address and 4-digit PIN that the user selected during the registration process.
+When the user logs in successfully, the menu will be shown and the user can select which functionality they want.
+These are the functions that the user can access:
+1) Check your balance
+2) Transfer funds
+3) Change your PIN code
+4) Check your profile
+5) Check your transactions
+0) Exit the application
+
+<h5>Checking the balance</h5>
+If the user wants to check his account balance, type 1 on the console.
+
+![5](https://github.com/RileDev/E-Banking-System/assets/71150306/b351955e-21f2-4054-8e43-0639e1e02532)
+
+When the user types number 1, the balance will be shown on the screen.
+When the functionality executes, the user will be automatically redirected to the main menu.
+
+<h5>Transferring the funds to different bank accounts </h5>
+If the user wants to transfer the funds to a different bank account, type 2 on the console
+
+![6](https://github.com/RileDev/E-Banking-System/assets/71150306/2644765f-0916-4194-a484-6771a51ea865)
+
 
 <h1>Srpska dokumentacija</h1>
 
