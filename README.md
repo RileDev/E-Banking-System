@@ -47,11 +47,47 @@ If the user wants to check his account balance, type 1 on the console.
 When the user types number 1, the balance will be shown on the screen.
 When the functionality executes, the user will be automatically redirected to the main menu.
 
-<h5>Transferring the funds to different bank accounts </h5>
-If the user wants to transfer the funds to a different bank account, type 2 on the console
+<h5>Transferring the funds to different bank accounts (continued)</h5>
 
-![6](https://github.com/RileDev/E-Banking-System/assets/71150306/2644765f-0916-4194-a484-6771a51ea865)
+The application will prompt you to:
 
+* Enter the **recipient’s bank account number** in the format `XXXX-XXXX-XXXX-XXXX`.
+* Enter the **amount in EUR** you want to transfer to the recipient’s account.
+* Enter the **payment purpose** (description).
+
+If all parameters are valid, the application will display a message confirming that the money has been **successfully sent**.
+
+<h5>Change PIN code</h5>
+
+![7](https://github.com/RileDev/E-Banking-System/assets/71150306/487bee74-f5c7-4789-8e22-1ab88fad1de1)
+
+If the user wants to change their four-digit PIN, type **3** in the console.
+You will be asked to enter your **current PIN**, then the **new PIN**, and finally **confirm** the new PIN by entering it again.
+
+<h5>Check your profile</h5>
+
+![8](https://github.com/RileDev/E-Banking-System/assets/71150306/316661cb-7a65-4b3d-86b7-4e035d71e8eb)
+
+If the user wants to view their profile, type **4** in the console.
+The application will print **all user information** on the screen.
+
+<h5>Check your transactions</h5>
+
+![9](https://github.com/RileDev/E-Banking-System/assets/71150306/cca33899-de94-4377-a6b9-a2b2136806d7)
+
+If the user wants to review their transactions, type **5** in the console.
+You will be asked to enter a **transaction date** in the format `dd-MM-yyyy` (e.g., `11-06-2024`). After entering the date, the application will display a **list of all transactions** made on that day.
+
+<h5>Exit the application</h5>
+
+![10](https://github.com/RileDev/E-Banking-System/assets/71150306/dbf119b9-9e20-453e-a0da-310deb3af85b)
+
+If the user wants to exit the application, type **0** in the console.
+The user can exit the application from the **main menu**.
+
+<h2>5. Conclusion</h2>
+
+This application is a solid project for learning both **fundamental** and **advanced** object-oriented programming principles. Within this project we covered **keyboard input**, **data processing**, **printing output** to the screen, and **saving data to files**. The app also handles **user authentication**, **account creation**, and **updating user data**. With a GUI, this project could evolve into a **commercially usable** application. To reach its full potential, future improvements could include **multiple account types** (RSD/EUR), **saved recipient accounts**, **monthly statements via email**, **stronger authentication**, and much more.
 
 <h1>Srpska dokumentacija</h1>
 
